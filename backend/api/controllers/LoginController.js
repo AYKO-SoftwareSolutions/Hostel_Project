@@ -8,13 +8,18 @@
 module.exports = {
 	
 	loginUser: function(req, res, next, callback) {
+		console.log("aaa");
 		var params = req.params.all();
 		if((params.userName)&&(params.password)){
-			if(params.userName == "admin" && params.password == "admin"){
+			if(params.userName == "akshaya" && params.password == "admin"){
 				return res.json("Welcome!")
+			}
+			else{
+				return res.badRequest("Try Again!!!")
 			}
 		}
 		else{
+			console.log("err");
 			return res.badRequest("Please enter Proper Username and password");
 		}
 	}

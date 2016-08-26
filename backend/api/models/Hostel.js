@@ -15,10 +15,21 @@ module.exports = {
   			unique : true
   		},
 
-	//Communicate with room model
+    //Communicate with room model
   		roomId : {
   			model : 'Room'
-  		}
+  		},
+      
+    //Number of rooms
+        roomCount : {
+            type : "string"
+        },
+      
+    //Delete
+        delete : {
+            type : "string",
+            defaultsTo : "false"
+        },
   }
 };
 

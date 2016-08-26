@@ -1,0 +1,112 @@
+#loginDialog {
+    background: deepskyblue;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+#pageStyle {
+    background: antiquewhite;
+}
+#title_info {
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#errMsg {
+    margin-left: 521px;
+    font-size: larger;
+    float: left;
+    margin-top: 6px;
+}
+
+#welcome {
+    float: right;
+    font-size: xx-large;
+    margin-right: 15px;
+    font-style: oblique;
+}
+
+.createButton {
+    float: right;
+    font-size: 15px;
+    margin-top: 66px;
+    font-style: normal;
+    margin-right: -259px;
+}
+
+#squareView {
+    float: left;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
+#cardButton {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: -165px;
+}
+
+#edit_button {
+    margin-right: 30px;
+    background: chocolate;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#delete_Button {
+    background: chocolate;
+    margin-left: 20px;
+}
+
+#header_width {
+    width: 750px;
+    padding-left: 75px;
+}
+#id_width {
+    width: 50px;
+    padding-left: 25px;
+}
+#tableInfo {
+    margin-top: 140px;
+    width: 1000px;
+    margin-left: 44px;
+}
+#allowedActionsBtn{
+    padding-left: 30px;
+}
+#edi_button{
+    margin-right: 13px;
+    margin-left: -8px;
+    background: #f0ad4e;
+}
+#nameLbl{
+    padding-left: 70px;
+}
+#noLbl {
+    padding-left: 25px;
+}
+#hostelForm {
+    margin-top: 250px;
+    margin-right: 600px;
+    margin-left: 450px;
+}
+
+/*create hostel style*/
+
+#createHostel {
+    margin-top: 13%;
+    margin-left: 18%;
+    margin-right: -52%;
+}
+#inputEmail3 {
+    width: 13%;
+}
+#inputPassword3 {
+    width: 13%;
+}
